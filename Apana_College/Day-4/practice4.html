@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table border="">
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">name</th>
+            <th colspan="2">Adrress</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>
+                House
+            </th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="/sever">
+        <label for="name" >Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" name="name"><br>
+        <label for="gender">Sex:</label>
+        <input type="radio" name="gender" id="gender" value="male" >
+        Male
+        <input type="radio" name="gender" id="gender" value="female">
+        Female
+        <br>
+        Countery:
+        <select name="country" id="country">
+            <option>selct an option</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="Canda">Canda</option>
+        </select><br>
+        Message:<br>
+        <textarea placeholder="Enter text" name="text"></textarea><br>
+        <input type="checkbox" id="sub">
+        <label for="sub">Subscribe?</label>
+        <br>
+        <label id="rate">Rate of our of 5:</label>
+        <br>
+        <input type="radio" name="rate">1
+        <br>
+        <input type="radio" name="rate">2
+        <br>
+        <input type="radio" name="rate">3
+        <br>
+        <input type="radio" name="rate">4
+        <br>
+        <input type="radio" name="rate">5
+        <br>
+        <button>Submit</button>
+    </form>
+
+
+</body>
+</html>
